@@ -1,4 +1,41 @@
 ﻿body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8fafc;
+}
+
+.hero {
+    background: linear-gradient( 135deg, #0f172a, #1e293b );
+    color: white;
+}
+
+    .hero p {
+        color: #cbd5e1;
+    }
+
+.card {
+    border: none;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+    .card:hover {
+        transform: translateY(-8px);
+    }
+
+.btn {
+    border-radius: 10px;
+}
+
+.section-title {
+    font-weight: 700;
+}
+
+
+
+
+
+
+/*body {
     font-family: 'Segoe UI';
 }
 
@@ -9,3 +46,4 @@ h1 {
 .card {
     border-radius: 10px;
 }
+*/
